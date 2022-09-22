@@ -11,4 +11,4 @@ COPY . .
 
 CMD [ "flask", "--debug", "--app", "main", "run", "--host=0.0.0.0"]
 
-EXPOSE 5000
+EXPOSE 3000
