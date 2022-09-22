@@ -13,6 +13,6 @@ def get_orders():
     return json.dumps(orders)
 
 
-@api.route('/', methods=['GET'])
+@api.route('/')
 def index():
-    return send_from_directory('.', '/app/index.html')
+    return send_from_directory('/app', 'index.html')
