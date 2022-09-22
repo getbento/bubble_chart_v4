@@ -28,9 +28,7 @@ See more here: https://github.com/mbostock/d3/wiki#using
 To run this visualization locally, navigate to the directory you checked out to, and run the following:
 
 ```
-$ docker build --tag d3 .
-
-$ docker run -it --rm -v "$(PWD)":/app -w /app -p 5000:5000 d3:latest
+$ ./run_server
 ```
 
 The first line will build the image.
