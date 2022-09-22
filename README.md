@@ -33,9 +33,9 @@ $ ./run_server
 
 The first line will build the image.
 
-The next line will mount the repository into the `/app` directory, set the working directory to `/app`, map host port 5000 to container port 5000, and run the image tagged d3:latest.
+The next line will mount the repository into the `/app` directory, set the working directory to `/app`, map host port 3000 to container port 3000, and run the image tagged d3:latest.
 
-Try visiting <http://localhost:5000> in a browser.
+Try visiting <http://localhost:3000> in a browser.
 
 ## Caveats
 
